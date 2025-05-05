@@ -1,0 +1,26 @@
+body {
+	font-family:arial;
+	background-color:rgb(6, 255, 234);
+	height:100hv;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap:20px;
+}
+
+.container {
+	background-color:rgb(207, 15, 166);
+	width:300px;
+	height:300px;
+	overflow-y:scroll;
+	border:2px solid #00000090;
+	border-radius:5px;
+	box-shadow:20px 20px 20px #33002250;
+}
+.container:hover {
+	box-shadow: 0px 0px 50px #330022
+}
+
+h2 {
+	rext-alight:center
+}
