@@ -7,7 +7,15 @@ body {
 	align-items:center;
 	gap:20px;
 }
-
+section{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap:50px;
+	width:100%;
+	height: 100vh;
+}
 .container {
 	background-color:rgb(207, 15, 166);
 	width:300px;
@@ -16,7 +24,6 @@ body {
 	border:2px solid #00000090;
 	border-radius:5px;
 	box-shadow:20px 20px 20px #33002250;
-
 }
 .container:hover {
 	box-shadow: 0px 0px 50px #330022
@@ -24,4 +31,12 @@ body {
 
 h2 {
 	rext-alight:center
+}
+.image-container img{
+  width: 100px;
+  height: auto;
+  padding: 10px;
+}
+  .image-container{
+	text-align: center;
 }
